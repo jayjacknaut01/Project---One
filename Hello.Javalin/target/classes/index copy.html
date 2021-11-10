@@ -1,0 +1,119 @@
+<!-- shift + alt a is a how you create a comment -->
+<!--
+
+    HTML is a HyperText Markup Language which gives webpages structure
+
+    CSS is Cascading StyleSheets
+    - makes your webpage nice and pretty
+
+    JavaScripts
+    -makes your webpage dynamic (functionality)
+-->
+
+<html>  <!-- this is the root tag of an html file-->
+
+  <head> <!-- this is fo rthe metadate-->
+     <title>Hello HTML</title>
+
+  </head>
+   <body> <!-- where the contents of the webpages-->
+   <h3>Add</h3>
+   
+
+  <!-- <div>This is a block tag</div>
+   <span>This is an inline tag1 ie all on the same row</span>
+   <span>This is an inline tag2 ie all on the same row</span>
+
+   class ia an attribute references a group of tags
+        id is a uniques identifier for one tag
+     
+       <div class="bubble" id="Addition">
+           div1
+       </div>
+
+       <div class="bubble" id="two">
+           div2
+       </div>
+
+
+       <form action="" method="get">
+           <input type="text" name=""> -->
+
+          <!-- <input type="number" name="">
+
+       </form> -->
+
+
+    <form action=" http://localhost:9000/form-post" method="post" target="Addition">
+     <input  type="text" id="number-input"  name="number">
+         +
+     <form action=" http://localhost:9000/form-get" method="post" target="Addition">
+        <input  type="text" id="number-input" name="number">
+       
+       <button id="convert-input">Convert</button>
+
+       
+       
+        
+     
+    </form> 
+
+    <iframe name="results"></iframe> 
+
+    <!--When the method attribute is set to:
+     -get: sent like a query param  endpoint?word=kevin
+     -post: sent in the http request body
+    -->
+
+   <!--<form action=" http://localhost:9000/form-get" methods="post" target="Addition">
+        <input  type="text" name="word">
+    
+        
+    </form> -->
+    <h3>Subtract</h3>
+
+    <form action=" http://localhost:9000/form-get" method="post" target="Subtraction">
+        <input  type="text" id="number-input" name="number">
+            -
+        <form action=" http://localhost:9000/form-get" method="post" target="Subtraction">
+           <input  type="text" id="number-input" name="number">
+          
+          <button id="convert-input">Convert</button>
+   
+           </form> 
+   
+       <iframe name="results"></iframe>
+
+
+    <h3>Multiply</h3>
+
+       <form action=" http://localhost:9000/form-get" method="post" target="Multiplication">
+        <input  type="text" id="number-input" name="number">
+            *
+        <form action=" http://localhost:9000/form-get" method="get" target="Multiplication">
+           <input  type="text" id="number-input" name="number">
+          
+          <button id="convert-input">Convert</button>
+   
+        </form> 
+      <iframe name="results"></iframe>
+
+
+       <h3>Divide</h3>
+       <form action=" http://localhost:9000/form-get" method="post" target="Division">
+        <input  type="text" id="number-input" name="number">
+            /
+        <form action=" http://localhost:9000/form-get" method="post" target="Division">
+           <input  type="text" id="number-input" name="number">
+          
+          <button id="convert-input">Convert</button>
+   
+         </form> 
+   
+       <iframe name="results"></iframe>
+       
+
+
+   </body>
+
+</html>

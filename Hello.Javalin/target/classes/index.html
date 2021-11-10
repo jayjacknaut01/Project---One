@@ -1,0 +1,105 @@
+<!-- shift + alt a is a how you create a comment -->
+<!--
+
+    HTML is a HyperText Markup Language which gives webpages structure
+
+    CSS is Cascading StyleSheets
+    - makes your webpage nice and pretty
+
+    JavaScripts
+    -makes your webpage dynamic (functionality)
+-->
+
+<html>  <!-- this is the root tag of an html file-->
+
+  <head> <!-- this is fo rthe metadate-->
+     <title>Hello HTML</title>
+
+  </head>
+   <body> <!-- where the contents of the webpages-->
+   <h3>Add</h3>
+   
+
+  <!-- <div>This is a block tag</div>
+   <span>This is an inline tag1 ie all on the same row</span>
+   <span>This is an inline tag2 ie all on the same row</span>
+
+   class ia an attribute references a group of tags
+        id is a uniques identifier for one tag
+     
+       <div class="bubble" id="Addition">
+           div1
+       </div>
+
+       <div class="bubble" id="two">
+           div2
+       </div>
+
+
+       <form action="" method="get">
+           <input type="text" name=""> -->
+
+          <!-- <input type="number" name="">
+
+       </form> -->
+
+
+    <form action=" http://localhost:9000/add" method="post" target="Addition">
+     <input  type="text" id="number-input1"  name="number1">
+         +
+     <input  type="text" id="number-input2"  name="number2">
+
+     <button id="convert-input">Convert</button>
+
+        
+        </form>
+
+    <iframe name="Addition"></iframe> 
+
+   
+    <h3>Subtract</h3>
+
+    <form action=" http://localhost:9000/subtract" method="post" target="Subtraction">
+        <input  type="text" id="number-input3" name="number3">
+               -
+        <input  type="text" id="number-input4" name="number4">
+          
+          <button id="convert-input1">Convert</button>
+   
+           </form> 
+   
+       <iframe name="Subtraction"></iframe>
+
+
+    <h3>Multiply</h3>
+
+       <form action=" http://localhost:9000/multiply" method="post" target="Multiplication">
+        <input  type="text" id="number-input5" name="number5">
+            *
+        
+           <input  type="text" id="number-input6" name="number6">
+          
+          <button id="convert-input2">Convert</button>
+   
+        </form> 
+      <iframe name="Multiplication"></iframe>
+
+
+       <h3>Divide</h3>
+       <form action=" http://localhost:9000/divide" method="post" target="Division">
+        <input  type="text" id="number-input7" name="number7">
+            /
+        
+           <input  type="text" id="number-input8" name="number8">
+          
+          <button id="convert-input3">Convert</button>
+   
+         </form> 
+   
+       <iframe name="Division"></iframe>
+       
+
+
+   </body>
+
+</html>
